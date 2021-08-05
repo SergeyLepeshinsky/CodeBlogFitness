@@ -6,6 +6,7 @@ namespace CodeBlogFitness.BL.Model
     /// <summary>
     /// Пользователь. 
     /// </summary>
+    [Serializable]  // выставленный атрибут указывает, что класс является сериализуемым  
     public class User
     {
         #region Свойства
